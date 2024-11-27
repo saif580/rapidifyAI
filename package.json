@@ -1,0 +1,33 @@
+{
+  "name": "rapidifyai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif580/rapidifyAI.git"
+  },
+  "author": "Anubhav Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saif580/rapidifyAI/issues"
+  },
+  "homepage": "https://github.com/saif580/rapidifyAI#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
