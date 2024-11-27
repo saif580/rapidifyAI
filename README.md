@@ -1,1 +1,1 @@
-# rapidifyAI
+rapidifyAI
